@@ -3,34 +3,15 @@
 [tool.poetry]
 name = "project_name"
 version = "0.1.0"
-description = "A project description"
-license = "MIT"
-authors = [ "amber williams <https://github.com/Amber-Williams>" ]
+description = ""
+authors = [ "amber williams <amberwilliamsdev@gmail.com>" ]
 readme = "README.md"
 
-  [[tool.poetry.packages]]
-  include = "src"
-
-  [[tool.poetry.packages]]
-  include = "tests"
-
-  [[tool.poetry.packages]]
-  include = "utils"
-
-  [tool.poetry.scripts]
-  start = "scripts:start"
-  test = "scripts:test"
-  lint = "scripts:lint"
-  format = "scripts:format"
-
   [tool.poetry.dependencies]
-  nanodjango = "*"
   python = "^3.8"
 
 [tool.poetry.group.dev.dependencies]
-projen = "0.88.0"
-pytest-django = "*"
-ruff = "*"
+projen = "0.88.9"
 pytest = "7.4.3"
 
 [build-system]

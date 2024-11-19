@@ -2,20 +2,8 @@
   "dependencies": [
     {
       "name": "projen",
-      "version": "0.88.0",
+      "version": "0.88.9",
       "type": "devenv"
-    },
-    {
-      "name": "pytest-django",
-      "type": "devenv"
-    },
-    {
-      "name": "ruff",
-      "type": "devenv"
-    },
-    {
-      "name": "nanodjango",
-      "type": "runtime"
     },
     {
       "name": "pytest",
