@@ -82,4 +82,7 @@ dmypy.json
 .pyre/
 .pytype/
 cython_debug/
+!/Makefile
+!/README.md
+!/scripts.py
 !/.projenrc.py

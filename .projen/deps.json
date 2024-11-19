@@ -6,6 +6,18 @@
       "type": "devenv"
     },
     {
+      "name": "pytest-django",
+      "type": "devenv"
+    },
+    {
+      "name": "ruff",
+      "type": "devenv"
+    },
+    {
+      "name": "nanodjango",
+      "type": "runtime"
+    },
+    {
       "name": "pytest",
       "version": "7.4.3",
       "type": "test"

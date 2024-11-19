@@ -8,4 +8,7 @@
 /.projen/deps.json linguist-generated
 /.projen/files.json linguist-generated
 /.projen/tasks.json linguist-generated
+/Makefile linguist-generated
 /pyproject.toml linguist-generated
+/README.md linguist-generated
+/scripts.py linguist-generated

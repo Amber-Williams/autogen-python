@@ -15,8 +15,7 @@ poetry_options = PoetryPyprojectOptionsWithoutDeps(
         "test": "scripts:test",
         "lint": "scripts:lint",
         "format": "scripts:format",
-    },
-    python_version=python_version,
+    }
 )
 
 project = PythonProject(
