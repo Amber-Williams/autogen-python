@@ -81,7 +81,5 @@ dmypy.json
 .pyre/
 .pytype/
 cython_debug/
-!/Makefile
-!/README.md
-!/scripts.py
-!/.projenrc.py
+
+!/cookiecutter-notebook/{{cookiecutter.project_slug}}/.env
