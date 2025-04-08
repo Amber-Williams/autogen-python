@@ -1,0 +1,10 @@
+{
+  "project_name": "project_name",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_description": "A project description",
+  "author_name": "amber williams",
+  "author_email": "https://github.com/Amber-Williams",
+  "python_version": "3.11",
+  "license": "MIT",
+  "version": "0.1.0"
+}

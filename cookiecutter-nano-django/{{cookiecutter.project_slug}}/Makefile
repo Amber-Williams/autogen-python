@@ -4,6 +4,7 @@ SHELL = /bin/bash
 .PHONY: install
 install: ## installs dependencies
 	poetry install
+	poetry run pre-commit install
 
 .PHONY: start
 start: ## starts the app
@@ -16,3 +17,4 @@ test: ## runs tests
 .PHONY: dustoff
 dustoff: ## formats and verifies code
 	poetry run format && poetry run lint
+
